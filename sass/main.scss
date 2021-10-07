@@ -1,0 +1,23 @@
+// UTILS
+
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+//BASE
+@import "./base/common";
+@import "./base/container";
+@import "./base/section-padding.scss";
+
+//COMPONENTS
+@import "./components/modal-btn.scss";
+@import "./components/social-links";
+@import "./components/title";
+@import "./components/modal/backdrop";
+@import "./components/modal/modal-window";
+@import "./components/modal/modal-form";
+
+//LAYOUT
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/about";
+@import "./layout/footer";

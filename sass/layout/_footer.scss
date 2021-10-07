@@ -6,9 +6,9 @@
 }
 .page-footer {
   display: flex;
-  background-color: var(--contrast-background-color);
+  background-color: $contrast-background-color;
   background-size: cover;
-  color: var(--white-color);
+  color: $white-color;
   padding-bottom: 60px;
   padding-top: 60px;
 }
@@ -21,7 +21,7 @@
 
   & .contacts {
     display: inline-block;
-    color: var(--footer-color);
+    color: $footer-color;
   }
   &-name {
     margin-bottom: 9px;
@@ -51,7 +51,7 @@
   letter-spacing: 0.03em;
 }
 .footer .social-network-icon {
-  fill: var(--white-color);
+  fill: $white-color;
 }
 
 /* оформление формы ПОДПИШИТЕСЬ НА РАССЫЛКУ*/
@@ -65,7 +65,7 @@
   padding-bottom: 15px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background-color: transparent;
-  color: var(--white-color);
+  color: $white-color;
   border-radius: 4px;
 }
 
@@ -80,22 +80,17 @@
 }
 
 .subscribe-button {
+  margin-top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px 20px;
-  width: 200px;
-  height: 50px;
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: none;
-  border-radius: 4px;
 
   &-text {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    color: var(--white-color);
+    color: $white-color;
     margin-right: 10px;
   }
 }

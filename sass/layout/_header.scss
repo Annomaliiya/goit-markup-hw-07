@@ -6,7 +6,7 @@
   padding-bottom: 25px;
 }
 .contacts {
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   margin-left: auto;
 }
 .contacts-links {
@@ -18,8 +18,8 @@
 
   &:hover,
   &:focus {
-    fill: var(--accent-color);
-    color: var(--accent-color);
+    fill: $accent-color;
+    color: $accent-color;
   }
 }
 .contacts-items {
@@ -30,7 +30,7 @@
 .phone {
   display: flex;
   align-items: center;
-  fill: var(--secondary-text-color);
+  fill: $secondary-text-color;
   cursor: pointer;
 }
 .email-icon {

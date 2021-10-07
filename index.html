@@ -9,8 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +21,7 @@
     <header class="page-header">
       <div class="container menu">
         <nav class="navigation">
-          <a class="logo" href="./index.html"
+          <a class="logo link" href="./index.html"
             ><span class="blue">Web</span>Studio</a
           >
           <ul class="site-nav list">
@@ -30,15 +29,15 @@
               <a class="current-page" href="./index.html">Студия</a>
             </li>
             <li class="site-nav-items">
-              <a href="./portfolio.html">Портфолио</a>
+              <a class="link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="site-nav-items"><a href="">Контакты</a></li>
+            <li class="site-nav-items"><a class="link" href="">Контакты</a></li>
           </ul>
         </nav>
         <ul class="contacts list">
           <li class="site-nav-items">
             <div class="email">
-              <a class="contacts-links" href="mailto:info@devstudio.com">
+              <a class="contacts-links link" href="mailto:info@devstudio.com">
                 <svg class="email-icon">
                   <use href="./images/icons.svg#icon-email"></use>
                 </svg>
@@ -48,7 +47,7 @@
           </li>
           <li class="site-nav-items">
             <div class="phone">
-              <a class="contacts-links" href="tel:+380961111111">
+              <a class="contacts-links link" href="tel:+380961111111">
                 <svg class="phone-icon">
                   <use href="./images/icons.svg#icon-telephone"></use>
                 </svg>
@@ -66,7 +65,7 @@
             ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />
             ДЛЯ ВАШЕГО БИЗНЕСА
           </h1>
-          <button class="hero-button" data-modal-open type="button">
+          <button class="button" data-modal-open type="button">
             Заказать услугу
           </button>
         </div>
@@ -439,7 +438,7 @@
               placeholder="E-mail"
               required
             />
-            <button class="subscribe-button" type="submit">
+            <button class="subscribe-button button" type="submit">
               <span class="subscribe-button-text">Подписаться</span>
               <svg class="" width="24" height="24">
                 <use href="./images/icons.svg#icon-send-mail"></use>
@@ -525,7 +524,7 @@
             >
           </div>
           <div class="button-wrapper">
-            <button type="submit" class="hero-button">Отправить</button>
+            <button type="submit" class="button">Отправить</button>
           </div>
           <button class="close-modal-button" data-modal-close>
             <svg class="icon-close-button" width="11" height="11">
